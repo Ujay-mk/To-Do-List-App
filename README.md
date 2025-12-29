@@ -1,51 +1,40 @@
-A Persistent Flask To-Do App
-It is a clean, lightweight web application designed to help users manage daily tasks. Unlike basic tutorial apps, it features a persistent storage system, meaning your tasks remain saved even after closing the browser or restarting the server.
+# 📝 TaskFlow: Persistent Flask To-Do App
 
-🚀 Features
-Create & Delete: Easily add new tasks or remove completed ones.
+TaskFlow is a clean, lightweight web application designed to help users manage daily tasks. Unlike basic tutorial apps, it features a **persistent storage system**, meaning your tasks remain saved even after closing the browser or restarting the server.
 
-Data Persistence: Tasks are saved to a local task.json file automatically.
+---
 
-Modern UI: Styled with a clean, responsive CSS card layout.
+## 🌟 Key Features
 
-Safe Deletion: Uses POST request methods to prevent accidental deletions from search engine crawlers or browser pre-fetching.
+* **✨ Create & Delete:** Easily add new tasks or remove completed ones with a single click.
+* **💾 Data Persistence:** Tasks are synced to a local `task.json` file automatically.
+* **🎨 Modern UI:** A responsive CSS card-based layout for a sleek user experience.
+* **🔒 Safe Deletion:** Uses `POST` methods to protect against accidental deletions from crawlers.
+* **🚫 Custom 404 Page:** Includes a dedicated "Page Not Found" handler for better navigation.
 
-Custom 404 Page: A dedicated error handler for a smooth user experience.
+---
 
-🛠️ Tech Stack
-Backend: Python 3.x, Flask
+## 🛠️ Tech Stack
 
-Frontend: HTML5, CSS3, Jinja2 (Templating Engine)
+| Layer | Technology |
+| :--- | :--- |
+| **Backend** | Python 3.x, Flask |
+| **Frontend** | HTML5, CSS3, Jinja2 |
+| **Storage** | JSON (Flat-file database) |
 
-Storage: JSON (Flat-file database)
+---
 
-📦 Installation & Setup
-Clone the repository:
+## 📸 Preview
 
-Bash
+![App Screenshot](assets/msedge_XOBgg7o7A5.png)
 
-git clone https://github.com/yourusername/taskflow.git
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to get the project running locally:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/yourusername/taskflow.git](https://github.com/yourusername/taskflow.git)
 cd taskflow
-Install Flask:
-
-Bash
-
-pip install flask
-Run the application:
-
-Bash
-
-python app.py
-Access the app: Open your browser and go to http://localhost:8080
-
-📂 Project Structure
-Plaintext
-
-├── app.py            # Main Flask application logic
-├── task.json         # Local data storage (created automatically)
-├── static/
-│   └── style.css     # App styling and layout
-└── templates/
-    ├── index.html    # Main dashboard
-    └── pnf.html      # 404 Page Not Found
-![App Screenshot](msedge_XOBgg7o7A5.png)
