@@ -48,5 +48,4 @@ Plaintext
 └── templates/
     ├── index.html    # Main dashboard
     └── pnf.html      # 404 Page Not Found
-Pro-Tip for your Repository:
-If you want to make it look even better, you can take a screenshot of your app and ad
+![App Screenshot](msedge_XOBgg7o7A5.png)
