@@ -1,5 +1,5 @@
-TaskFlow: A Persistent Flask To-Do App
-TaskFlow is a clean, lightweight web application designed to help users manage daily tasks. Unlike basic tutorial apps, TaskFlow features a persistent storage system, meaning your tasks remain saved even after closing the browser or restarting the server.
+A Persistent Flask To-Do App
+It is a clean, lightweight web application designed to help users manage daily tasks. Unlike basic tutorial apps, it features a persistent storage system, meaning your tasks remain saved even after closing the browser or restarting the server.
 
 🚀 Features
 Create & Delete: Easily add new tasks or remove completed ones.
